@@ -1,0 +1,39 @@
+<html>
+<head>
+<title> find employee Page </title>
+<script src = "jquery.js"></script>
+
+	<script>
+	 $(document).ready(function(){
+		$('#un').css("background-color","yellow");
+	 });
+	 
+		</script>
+	
+</head>
+
+<body>
+<div class="space">
+<form action="/checkuser">
+<table border="1" bgcolor="blue" style="color:white" width="60%">
+<tr>
+<th colspan="2"> find employee </th>
+</tr>
+<tr>
+<td><p>empid</p></td>
+<td> <input type="text" id="empid" name="empidid" >
+<span style="background-color:black;color:yellow" id="userexist"></span>
+ </td>
+</tr>
+
+<div id = "un">
+<tr>
+<td></td>
+<td> <button type="submit" value="Login" name="checkuser"> find </button> </td>
+</tr></div>
+
+</table>
+</form>
+</div>
+</body>
+</html>
