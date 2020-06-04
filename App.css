@@ -1,0 +1,57 @@
+.gallery {
+  display        : flex;
+  flex-wrap      : wrap;
+  align-items    : stretch;
+  justify-content: space-around;
+  flex-direction : column;
+  max-height     : 150vh;
+}
+
+.gallery img {
+  margin    : 1em;
+  border    : 0.2em solid black;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 255, 0.3);
+  max-width : 15vw;
+}
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: red;
+}
+
+.App-link {
+  color:blue;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
